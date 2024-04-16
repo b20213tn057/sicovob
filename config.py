@@ -6,7 +6,7 @@ class Config:
 class DevelopmentConfig(Config):
     
     DEBUG = True
-    MYSQL_HOST='bd-sicovo.c95xzdmdpt6k.us-east-1.rds.amazonaws.com'
+    MYSQL_HOST='db-sicovo.c95xzdmdpt6k.us-east-1.rds.amazonaws.com'
     MYSQL_USER='sicovo'
     MYSQL_PASSWORD='sicovo12'
     MYSQL_DB='tienda'
